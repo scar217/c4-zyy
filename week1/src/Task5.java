@@ -23,11 +23,11 @@ class Circle{
     public void getArea(double radius,double N){
         double area;
         area = N*radius*radius;
-        System.out.println("the area is "+area);
+        System.out.printf("the area is %.2f\n",area);
     }
     public void getPerimeter(double radius,double N){
         double perimeter;
         perimeter = 2*N*radius;
-        System.out.println("the perimeter is "+perimeter);
+        System.out.printf("the perimeter is %.2f\n",perimeter);
     }
 }
