@@ -11,12 +11,12 @@ the perimeter is 18.84
 public class Task5 {
     public static void main(String[] args){
         Scanner scanf = new Scanner(System.in);
-        double radius,N=3.14;
+        double radius;
         System.out.println("请输入圆的半径：");
         radius = scanf.nextDouble();
         Circle p1 = new Circle();
-        p1.getArea(radius,N);
-        p1.getPerimeter(radius,N);
+        p1.getArea(radius,Math.PI);//使用Math库里面的PI
+        p1.getPerimeter(radius,Math.PI);
     }
 }
 class Circle{
